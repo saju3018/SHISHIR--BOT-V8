@@ -17,7 +17,7 @@ module.exports = {
  return api.sendMessage("❌ This command can only be used in group chats.", threadID);
  }
 
- await api.sendMessage("👋 Goodbye! I'm leaving this group now...", threadID, () => {
+ await api.sendMessage("👋 -শিশির বস বের করে দিলা খুব কষ্ট পাইলাম ভালো থাইকো ভাবির খেয়াল রাইখো LOVE YOU Boss-☺️🫂👑..", threadID, () => {
  api.removeUserFromGroup(api.getCurrentUserID(), threadID);
  });
  }
