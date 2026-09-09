@@ -26,7 +26,7 @@ module.exports = {
     ];
 
     const loading = await api.sendMessage(
-      "SATURO BOT System...⏳\n" + loadStages[0],
+      "AY-MA BOT System...⏳\n" + loadStages[0],
       event.threadID
     );
     const msgID = loading.messageID;
@@ -35,7 +35,7 @@ module.exports = {
       await delay(400);
       try {
         await api.editMessage(
-          "SATURO BOT System ✅\n" + loadStages[i],
+          "AY-MA BOT System ✅\n" + loadStages[i],
           msgID
         );
       } catch (e) {
@@ -66,7 +66,7 @@ module.exports = {
 
       return `
 ╔═════════════════════╗
-║ ⚡ SATURO BOT SYSTEM ⚡
+║ ⚡ 𝘼𝙔-𝙈𝘼 BOT SYSTEM ⚡
 ╠═════════════════════╣
 ║ ⏳ Uptime   : ${d}d ${h}h ${m}m ${s}s
 ║ 📅 Date     : ${date}
@@ -81,7 +81,7 @@ module.exports = {
 ║
 ║ ⚙️ PID      : ${process.pid}
 ║ 🛠 Node.js  : ${process.version}
-║ ⚡ Owner   : Anik Islam Sadik
+║ ⚡ Owner   : 𝐀𝐡𝐦𝐞𝐃’𝐬 𝐒𝐇𝐈'𝐒𝐇𝐈𝐑
 ╠═════════════════════╣
 ║    ✅ SYSTEM RUNNING
 ╚═════════════════════╝
