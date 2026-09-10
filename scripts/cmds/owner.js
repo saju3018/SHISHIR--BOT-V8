@@ -89,7 +89,7 @@ module.exports = {
   },
 
   onChat: async function ({ api, event, message }) {
-    if (event.body?.trim().toLowerCase() === "info") {
+    if (event.body?.trim().toLowerCase() === "owner") {
       return this.onStart({ api, event, message });
     }
   }
